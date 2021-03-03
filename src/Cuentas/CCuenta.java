@@ -10,11 +10,13 @@ package Cuentas;
  * @author evelyn
  */
 public class CCuenta {
-    
+    //he creado dos nuevos atributos con sus getters correspondientes
     private String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInteres;
+    private String nombreDeMiGato;
+    private int edadDeMiGato;
 
     /**
      * @return the nombre
@@ -23,6 +25,14 @@ public class CCuenta {
         return nombre;
     }
 
+    public String getNombreDeMiGato() {
+        return nombreDeMiGato;
+    }
+
+    public int getEdadDeMiGato() {
+        return edadDeMiGato;
+    }
+    
     /**
      * @param nombre the nombre to set
      */
