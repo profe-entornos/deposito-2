@@ -8,6 +8,7 @@ package Cuentas;
 /**
  *
  * @author evelyn
+ * Visto
  */
 public class CCuenta {
     //he creado dos nuevos atributos con sus getters correspondientes
